@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Search</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+
+  <body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">JS</div>
+      <div class="brandText">
+        <div class="brandTitle">Job Search</div>
+        <div class="brandSub">Algoritmo di ricerca</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="card">
+      <h1 class="title">Cerca offerte</h1>
+      <p class="subtitle">Filtra per titolo e location. Ricerca case-insensitive.</p>
+
+      <div class="formRow">
+        <div class="field">
+          <label for="titleInput">Titolo</label>
+          <input id="titleInput" type="text" placeholder="es. developer, dev, marketing" />
+        </div>
+
+        <div class="field">
+          <label for="locationInput">Location</label>
+          <input id="locationInput" type="text" placeholder="es. US, London, NZ" />
+        </div>
+
+        <button id="searchBtn" type="button" class="btnPrimary">Cerca</button>
+      </div>
+
+      <p id="msg" class="msg"></p>
+
+      <div class="metaRow">
+        <p id="count" class="count"></p>
+      </div>
+
+      <ul id="results" class="results"></ul>
+
+    </section>
+  </main>
+
+  <script src="scaricabile.js"></script>
+</body>
+
+</html>
