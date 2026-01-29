@@ -1,8 +1,13 @@
-# Job Search (Algoritmo di ricerca) – Modulo JS
+# Job Search (Algoritmo di ricerca) - Modulo JS
 
 Mini web app che permette di cercare inserzioni di lavoro filtrando **per titolo** e **per location** contemporaneamente, usando JavaScript + DOM.
 
 Il progetto include anche uno stile “web app” e una visualizzazione risultati in **card** con layout **masonry (stile Pinterest)**.
+
+## Demo online
+
+- Live (GitHub Pages): https://cloroalclero.github.io/Algoritmo-di-Ricerca-EPICODE/
+- Repo: https://github.com/CloroalClero/Algoritmo-di-Ricerca-EPICODE
 
 ---
 
@@ -21,15 +26,15 @@ Il progetto include anche uno stile “web app” e una visualizzazione risultat
 
 ## Struttura progetto
 
-- `index.html` → struttura della pagina (input, bottone, risultati)
-- `scaricabile.js` → logica di ricerca + gestione DOM/eventi (**include l’array `jobs` da non modificare**)
-- `style.css` → styling opzionale (look “LinkedIn-ish” + masonry cards)
+- `index.html` -> struttura della pagina (input, bottone, risultati)
+- `scaricabile.js` -> logica di ricerca + gestione DOM/eventi (include l’array `jobs` da non modificare)
+- `style.css` -> styling opzionale (look “LinkedIn-ish” + masonry cards)
 
 ---
 
 ## Come usare
 
-1. Apri `index.html` nel browser.
+1. Apri `index.html` nel browser oppure usa la demo online.
 2. Inserisci un **titolo** (es. `dev`, `developer`, `marketing`)
 3. Inserisci una **location** (es. `US`, `London`, `NZ`)
 4. Premi **Cerca** oppure **Enter**
